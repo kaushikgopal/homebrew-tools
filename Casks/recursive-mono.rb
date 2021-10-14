@@ -6,8 +6,8 @@ cask "recursive-mono" do
   name "Rec Mono Dark Cli 02"
   homepage "https://www.recursive.design/"
 
-  font "RecMonoDarkCli02-Bold-1.079.ttf"
-  font "RecMonoDarkCli02-BoldItalic-1.079.ttf"
-  font "RecMonoDarkCli02-Italic-1.079.ttf"
-  font "RecMonoDarkCli02-Regular-1.079.ttf"
+  font "RecMonoDarkCli/RecMonoDarkCli02-Bold-1.079.ttf"
+  font "RecMonoDarkCli/RecMonoDarkCli02-BoldItalic-1.079.ttf"
+  font "RecMonoDarkCli/RecMonoDarkCli02-Italic-1.079.ttf"
+  font "RecMonoDarkCli/RecMonoDarkCli02-Regular-1.079.ttf"
 end

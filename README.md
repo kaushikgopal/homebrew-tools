@@ -37,11 +37,13 @@ shasum -a 256 recursive-mono-2.1.079.zip | pbcopy
 ## debugging
 
 ```
-brew install -v --build-from-source recursive-mono.rb
+# For formulas
+# brew install -v --build-from-source recursive-mono.rb
 ```
 
 #Installing
 
 ```
-brew install --cask kaushikgopal/tools/recursive-mono
+brew tap kaushikgopal/tools
+brew install --cask recursive-mono
 ```
