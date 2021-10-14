@@ -1,36 +1,14 @@
-class RecursiveMono < Formula
-  desc "Custom variant of the Monospace font - Recursive"
-  homepage "https://github.com/kaushikgopal/recursive-code-config"
-  url "https://github.com/kaushikgopal/recursive-code-config/releases/download/v2.1.079/recursive-mono-2.1.079.tar.gz"
-  sha256 "83ae0297563ee9d435ea14a6f32d091bf87042ace4652f4b7171f2bb71e947e4"
-  license "MIT"
+cask "recursive-mono" do
+  version "2.1.079"
+  sha256 "474f198e60e92e3902ce0f21827bf2a075d4ab65f902c8d3fb8ee791c2900192"
+  url "https://github.com/kaushikgopal/recursive-code-config/releases/download/v2.1.079/recursive-mono-2.1.079.zip"
 
-  def install
-    (share/"fonts").install Dir["RecMono*.ttf"]
-  end
+  name "Rec Mono Dark Cli 02"
+  homepage "https://www.recursive.design/"
+  license "OFL"
 
-  def caveats; <<~EOS
-    ***************************************************
-    Generated files:
-      #{Dir[share + "fonts/RecMono*.ttf"].join("\n      ")}
-    ***************************************************
-    To install Recursive Mono:
-      $ cp -f #{share}/fonts/RecMono*.ttf ~/Library/Fonts/
-      $ fc-cache -vf
-    ***************************************************
-    EOS
-  end
-
-  test do
-    # `test do` will create, run in and delete a temporary directory.
-    #
-    # This test will fail and we won't accept that! For Homebrew/homebrew-core
-    # this will need to be a test that verifies the functionality of the
-    # software. Run the test with `brew test recursive-code-config`. Options passed
-    # to `brew install` such as `--HEAD` also need to be provided to `brew test`.
-    #
-    # The installed folder is not in the path, so use the entire path to any
-    # executables being tested: `system "#{bin}/program", "do", "something"`.
-    system "false"
-  end
+  font "RecMonoDarkCli02-Bold-1.079.ttf"
+  font "RecMonoDarkCli02-BoldItalic-1.079.ttf"
+  font "RecMonoDarkCli02-Italic-1.079.ttf"
+  font "RecMonoDarkCli02-Regular-1.079.ttf"
 end
