@@ -43,5 +43,5 @@ brew install -v --build-from-source recursive-mono.rb
 #Installing
 
 ```
-brew install kaushikgopal/tools/recursive-mono
+brew install --cask kaushikgopal/tools/recursive-mono
 ```
