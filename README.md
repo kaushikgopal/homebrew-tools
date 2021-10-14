@@ -20,6 +20,26 @@ mv /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/recursive-cod
 
 ```
 # first build the font
-# upload release to git
+tar -czf recursive-mono-2.1.079.tar.gz RecMono*.ttf
+# 2         internal version
+# 1.079     Recursive version
+
+shasum -a 256 recursive-mono-2.1.079.tar.gz | pbcopy
+
+# create release in github (recursive-code-config repo)
+# upload the .tar.gz file
+
+# update recursive-mono.rb file with new values
 ```
 
+## debugging
+
+```
+brew install -v --build-from-source recursive-mono.rb
+```
+
+#Installing
+
+```
+brew install kaushikgopal/tools/recursive-mono
+```

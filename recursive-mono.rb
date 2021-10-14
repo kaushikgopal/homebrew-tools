@@ -1,8 +1,8 @@
 class RecursiveMono < Formula
   desc "Custom variant of the Monospace font - Recursive"
   homepage "https://github.com/kaushikgopal/recursive-code-config"
-  url "https://github.com/kaushikgopal/recursive-code-config/archive/refs/tags/v2.1.079.tar.gz"
-  sha256 "204949974670d99d2224edd075cf590ad1b920b4604c81350614b09ddc8a635a"
+  url "https://github.com/kaushikgopal/recursive-code-config/releases/download/v2.1.079/recursive-mono-2.1.079.tar.gz"
+  sha256 "83ae0297563ee9d435ea14a6f32d091bf87042ace4652f4b7171f2bb71e947e4"
   license "MIT"
 
   def install
