@@ -1,18 +1,18 @@
 cask "recursive" do
-  version "2.1.079"
-  sha256 "5347cb1da96ec1740892f6d7bd6dbc16cd04e6ef94670ebe60ba6d78c0eedfba"
-  url "https://github.com/kaushikgopal/recursive-code-config/releases/download/v2.1.079/recursive-2.1.079.zip"
+  version "3.1.084"
+  sha256 "c6c7053b7f9e91e11db47cf6edeafddb469b25a40262e35c4f2275eaf98dbd9b"
+  url "https://github.com/kaushikgopal/recursive-code-config/releases/download/v3.1.084/recursive-3.1.084.zip"
 
-  name "Recursive Font Dark 02"
+  name "Recursive Font KG"
   homepage "https://www.recursive.design/"
 
-  font "Recursive/RecMonoDarkCli02-Bold-1.079.ttf"
-  font "Recursive/RecMonoDarkCli02-BoldItalic-1.079.ttf"
-  font "Recursive/RecMonoDarkCli02-Italic-1.079.ttf"
-  font "Recursive/RecMonoDarkCli02-Regular-1.079.ttf"
-  font "Recursive/RecMonoDarkSans02-Bold-1.079.ttf"
-  font "Recursive/RecMonoDarkSans02-BoldItalic-1.079.ttf"
-  font "Recursive/RecMonoDarkSans02-Italic-1.079.ttf"
-  font "Recursive/RecMonoDarkSans02-Regular-1.079.ttf"
+  font "Recursive/RecursiveKGCli03-Bold-1.084.ttf"
+  font "Recursive/RecursiveKGCli03-BoldItalic-1.084.ttf"
+  font "Recursive/RecursiveKGCli03-Italic-1.084.ttf"
+  font "Recursive/RecursiveKGCli03-Regular-1.084.ttf"
+  font "Recursive/RecursiveKGSans03-Bold-1.084.ttf"
+  font "Recursive/RecursiveKGSans03-BoldItalic-1.084.ttf"
+  font "Recursive/RecursiveKGSans03-Italic-1.084.ttf"
+  font "Recursive/RecursiveKGSans03-Regular-1.084.ttf"
 
 end

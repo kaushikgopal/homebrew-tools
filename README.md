@@ -45,5 +45,5 @@ shasum -a 256 recursive-mono-2.1.079.zip | pbcopy
 
 ```
 brew tap kaushikgopal/tools
-brew install --cask recursive-mono
+brew install --cask recursive
 ```
