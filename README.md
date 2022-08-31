@@ -11,14 +11,14 @@ Instructions courtesy:
 
 ## packaging for homebrew - first time
 
-```
+```sh
 brew create https://github.com/kaushikgopal/recursive-code-config/archive/refs/tags/v2.1.079.tar.gz
 mv /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/recursive-code-config.rb ./
 ```
 
 ## packaging for homebrew - updates
 
-```
+```sh
 # first build the font(s) and put them in a folder named "Recursive"
 
 zip -r -X recursive-5.1.085.zip Recursive
@@ -35,14 +35,14 @@ shasum -a 256 recursive-5.1.085.zip | pbcopy
 
 ## debugging
 
-```
+```sh
 # For formulas
 # brew install -v --build-from-source recursive-mono.rb
 ```
 
 #Installing
 
-```
+```sh
 brew tap kaushikgopal/tools
 brew install --cask recursive
 ```
