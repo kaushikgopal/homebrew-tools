@@ -6,13 +6,13 @@ cask "recursive" do
   name "Recursive Font KG"
   homepage "https://www.recursive.design/"
 
-  font "RecursiveKG06-Bold-1.085.ttf"
-  font "RecursiveKG06-BoldItalic-1.085.ttf"
-  font "RecursiveKG06-Italic-1.085.ttf"
-  font "RecursiveKG06-Medium-1.085.ttf"
-  font "RecursiveKG06-MediumItalic-1.085.ttf"
-  font "RecursiveKG06-Regular-1.085.ttf"
-  font "RecursiveKG06-SemiBold-1.085.ttf"
-  font "RecursiveKG06-SemiBoldItalic-1.085.ttf"
+  font "Recursive/RecursiveKG06-Bold-1.085.ttf"
+  font "Recursive/RecursiveKG06-BoldItalic-1.085.ttf"
+  font "Recursive/RecursiveKG06-Italic-1.085.ttf"
+  font "Recursive/RecursiveKG06-Medium-1.085.ttf"
+  font "Recursive/RecursiveKG06-MediumItalic-1.085.ttf"
+  font "Recursive/RecursiveKG06-Regular-1.085.ttf"
+  font "Recursive/RecursiveKG06-SemiBold-1.085.ttf"
+  font "Recursive/RecursiveKG06-SemiBoldItalic-1.085.ttf"
 
 end
