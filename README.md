@@ -40,9 +40,9 @@ shasum -a 256 recursive-5.1.085.zip | pbcopy
 # brew install -v --build-from-source recursive-mono.rb
 ```
 
-#Installing
+# Installing
 
 ```sh
 brew tap kaushikgopal/tools
-brew install --cask recursive
+brew install --cask font-recursive
 ```
