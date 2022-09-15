@@ -1,4 +1,4 @@
-cask "font-recursive" do
+cask "font-recursive-kg" do
   version "7.1.085"
   sha256 "dfe781e8f1c571870bda899daadcc319cc4be0af0d2100cea22df0ecbb6aa938"
   url "https://github.com/kaushikgopal/recursive-code-config/releases/download/v7.1.085/recursive-7.1.085.zip"
