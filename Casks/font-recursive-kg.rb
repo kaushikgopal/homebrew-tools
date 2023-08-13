@@ -1,5 +1,5 @@
 cask "font-recursive-kg" do
-  version "13.1.085"
+  version "13.1.085.001"
   sha256 "9d208771296285da8e6396da17b1099ba9804787931f92df3320aa5ab8f4ff37"
   url "https://github.com/kaushikgopal/recursive-code-config/releases/download/13.1.085/recursive-13.1.085.zip"
   name "Recursive Font KG"
