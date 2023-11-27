@@ -32,6 +32,22 @@ shasum -a 256 recursive-10.1.085.zip | pbcopy
 # update recursive-mono.rb file with new values (sha & url)
 ```
 
+For IBM Plex Mono
+
+```sh
+# first build the font(s) and put them in a folder named "IBM-Plex-Mono-KG"
+
+zip -r -X ibm-plex-mono-kg-1.6.30.zip IBM-Plex-Mono-KG
+# 1        internal version
+# 6.3.0    IBM Plex Mono version
+
+shasum -a 256 recursive-10.1.085.zip | pbcopy
+
+# create release in github (homebrew-tools repo)
+# upload the .zip file
+# update font-ibm-plex-mono-kg.rb file with new values (sha & url)
+```
+
 ## debugging
 
 ```sh
@@ -44,4 +60,5 @@ shasum -a 256 recursive-10.1.085.zip | pbcopy
 ```sh
 brew tap kaushikgopal/tools
 brew install --cask font-recursive-kg
+brew install --cask font-ibm-plex-mono-kg
 ```
