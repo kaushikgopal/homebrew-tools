@@ -1,5 +1,5 @@
 cask "font-ibm-plex-mono-kg" do
-  version "1.6.30"
+  version "2.6.30"
   sha256 "6151df7315ef5389efecfa9be73a5424803994b393f10cc0308463526405a155"
   url "https://github.com/kaushikgopal/ibm-plex-mono-kg/releases/download/2.6.30/ibm-plex-mono-kg-2.6.30.zip"
   name "IBM Plex Mono Font KG"
