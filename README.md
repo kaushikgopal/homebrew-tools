@@ -37,7 +37,7 @@ For IBM Plex Mono
 ```sh
 # first build the font(s) and put them in a folder named "IBM-Plex-Mono-KG"
 
-zip -r -X ibm-plex-mono-kg-1.6.30.zip IBM-Plex-Mono-KG
+zip -r -X ibm-plex-mono-kg-2.6.30.zip IBM-Plex-Mono-KG
 # 1        internal version
 # 6.3.0    IBM Plex Mono version
 
