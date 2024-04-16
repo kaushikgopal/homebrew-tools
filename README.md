@@ -27,6 +27,7 @@ zip -r -X recursive-10.1.085.zip Recursive
 
 shasum -a 256 recursive-10.1.085.zip | pbcopy
 
+# push the latest branch of recursive-code-config up first
 # create release in github (recursive-code-config repo)
 # upload the .zip file
 # update recursive-mono.rb file with new values (sha & url)
