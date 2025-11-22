@@ -1,13 +1,14 @@
 # Kaushik's Homebrew Tap
 
-A homebrew tap for installing custom tools/fonts/binaries I use. This should make installing it on different computers easy.
+A homebrew tap for installing custom tools/fonts/binaries I use. This should
+make installing it on different computers easy.
 
 # Developer instructions
 
 Instructions courtesy:
 
-* [Shinichi Okada](https://betterprogramming.pub/a-step-by-step-guide-to-create-homebrew-taps-from-github-repos-f33d3755ba74)
-* [sophyonline](http://sophyonline.com/blog/index.php/2018/03/19/create-a-local-formula-for-homebrew-tap-it/)
+- [Shinichi Okada](https://betterprogramming.pub/a-step-by-step-guide-to-create-homebrew-taps-from-github-repos-f33d3755ba74)
+- [sophyonline](http://sophyonline.com/blog/index.php/2018/03/19/create-a-local-formula-for-homebrew-tap-it/)
 
 ## packaging for homebrew - first time
 
@@ -21,13 +22,14 @@ mv /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/recursive-cod
 ```sh
 # first build the font(s) and put them in a folder named "Recursive"
 
-zip -r -X recursive-10.1.085.zip Recursive
-# 10        internal version
-# 1.079     Recursive version
+zip -r -X recursive-33.1.085.zip Recursive
+# 1         internal version
+# 1.085     Recursive font version
 
-shasum -a 256 recursive-10.1.085.zip | pbcopy
+shasum -a 256 recursive-33.1.085.zip | pbcopy
 
 # push the latest branch of recursive-code-config up first
+#       - you just need a new commit (but good practice to have the config up)
 # create release in github (recursive-code-config repo)
 # upload the .zip file
 # update recursive-mono.rb file with new values (sha & url)
