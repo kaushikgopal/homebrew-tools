@@ -1,7 +1,7 @@
 cask "font-recursive-kg" do
-  version "35"
-  sha256 "12ee069c8e1c187d1b56774114c25f0c1f481344ef2b8108d10052832e168b5d"
-  url "https://github.com/kaushikgopal/recursive-code-config/releases/download/v35/recursive-35.zip"
+  version "36"
+  sha256 "e4ae7f42e1714b09e7dd3baef2878d3413e2483c71f6c88c2b68785f2f7ea01e"
+  url "https://github.com/kaushikgopal/recursive-code-config/releases/download/v36/recursive-36.zip"
   name "Recursive Font KG"
   homepage "https://www.recursive.design/"
   font "RecursiveKG/RecursiveKG-Regular-1.085.ttf"
