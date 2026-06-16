@@ -1,6 +1,6 @@
 cask "font-moxy" do
-  version "39"
-  sha256 "534f4718314eaf4de3df8413a8c7f562b3626a485ba93608ba89bd2c6445a07e"
+  version "1"
+  sha256 "bb242b0909c52d1a28767a79f58a60ae676ac396cb67be5b5cb1c44c73b22a77"
   url "https://github.com/kaushikgopal/font-moxy/releases/download/v#{version}/moxy-#{version}.zip"
   name "Moxy"
   desc "Monospaced coding font built on Recursive, with glyphs borrowed from Lilex"
