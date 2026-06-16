@@ -1,0 +1,16 @@
+cask "font-moxy" do
+  version "39"
+  sha256 "534f4718314eaf4de3df8413a8c7f562b3626a485ba93608ba89bd2c6445a07e"
+  url "https://github.com/kaushikgopal/font-moxy/releases/download/v#{version}/moxy-#{version}.zip"
+  name "Moxy"
+  desc "Monospaced coding font built on Recursive, with glyphs borrowed from Lilex"
+  homepage "https://github.com/kaushikgopal/font-moxy"
+  font "Moxy-Static/Moxy-Regular-1.085.ttf"
+  font "Moxy-Static/Moxy-Italic-1.085.ttf"
+  font "Moxy-Static/Moxy-Semibold-1.085.ttf"
+  font "Moxy-Static/Moxy-SemiboldItalic-1.085.ttf"
+  font "Moxy-Static/Moxy-Bold-1.085.ttf"
+  font "Moxy-Static/Moxy-BoldItalic-1.085.ttf"
+  font "Moxy-Static/Moxy-Black-1.085.ttf"
+  font "Moxy-Static/Moxy-BlackItalic-1.085.ttf"
+end
